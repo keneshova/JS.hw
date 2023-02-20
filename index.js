@@ -55,3 +55,12 @@ function perimeterOfPentagon(a, b, c, d, e) {
   console.log(" Периметр пятиугольника равна " + perimeter);
 }
 perimeterOfPentagon(3, 4, 2, 6, 8);
+
+//Напишите цикл, который выводит каждое третье число в промежутке от 0 до 33.
+
+let number1 = 33;
+for(let i = 0; i <= number1; i++) {
+  if (i % 3 === 0){
+    console.log(i);
+  }
+}
