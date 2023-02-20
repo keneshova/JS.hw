@@ -12,3 +12,10 @@ function coneVolume(height, radius) {
   console.log("Обьем конуса " + (height * a * radius ** 4) / 2);
 }
 coneVolume(8, 5);
+
+// Напишите функцию, которая принимает строку и возвращает ее длину.
+
+function stringlength(string){
+  console.log("Длина строки равна " + string.length);
+}
+stringlength("Never stop dreaming");
