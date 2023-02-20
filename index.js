@@ -74,3 +74,11 @@ function factorial(n){
   }
   return result;
 }
+
+//Напишите цикл, который выводит квадраты чисел от 1 до 10.
+
+let number2 = 10;
+for (let i = 0; i <= number2; i++) {
+  result = i ** 2;
+  console.log(result);
+}
