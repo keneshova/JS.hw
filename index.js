@@ -41,3 +41,10 @@ function san(a) {
   console.log(" Квадрат данного числа равен на " + total);
 }
 san(4);
+
+// Напишите функцию, которая возвращает корень числа.
+
+function num(b) {
+  console.log("Корень равен на " + Math.sqrt(b));
+}
+num(9);
