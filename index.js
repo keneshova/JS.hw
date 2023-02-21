@@ -96,3 +96,14 @@ for (b = 0; b <= 15; b++) {
     console.log(b);
   }
 }
+
+//14. Создайте массив из строк и добавьте в начало массива 2 новых элемента, а в конец 3.
+let sans = ["Ajar","Elya","Saikal","Begaiym"];
+console.log(sans);
+
+sans.unshift("Nestana");
+sans.unshift("Alibek");
+sans.push("Aidai");
+sans.push("Rustam");
+sans.push("Baiyr");
+console.log(sans);
