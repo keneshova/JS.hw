@@ -117,3 +117,10 @@ console.log(line.join(''));
 //17.Создайте массив строк ["one", "two", "three"] и переверните его. // ["three", "two", "one"]
 let numbers = ["one", "two", "three"];
 console.log(numbers.reverse());
+
+//18.. Создайте массив из имен (минимум 3) и выведите каждое имя.
+
+let frends = ["Ajar", "Elya", "Nestana"];
+for (let i = 0; i < frends.length; i++){
+  console.log("Hello " + frends[i]);
+}
