@@ -113,3 +113,7 @@ console.log(sans);
 //16. Создайте массив строк и объедините их в одну строку
 let line = ["I ", "like ", "to ", "eat! "];
 console.log(line.join(''));
+
+//17.Создайте массив строк ["one", "two", "three"] и переверните его. // ["three", "two", "one"]
+let numbers = ["one", "two", "three"];
+console.log(numbers.reverse());
