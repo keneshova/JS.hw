@@ -108,4 +108,8 @@ sans.push("Rustam");
 sans.push("Baiyr");
 console.log(sans);
 
-//
+//15. Создайте массив чисел и вычислите сумму всех четных чисел в массиве.
+
+//16. Создайте массив строк и объедините их в одну строку
+let line = ["I ", "like ", "to ", "eat! "];
+console.log(line.join(''));
