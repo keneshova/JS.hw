@@ -107,3 +107,5 @@ sans.push("Aidai");
 sans.push("Rustam");
 sans.push("Baiyr");
 console.log(sans);
+
+//
